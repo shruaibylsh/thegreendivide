@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Map</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>For the past several censuses, the Census Bureau has invited people to self-respond before following up in-person using census takers. The 2010 Census invited people to self-respond predominately by returning paper questionnaires in the mail. The 2020 Census allows people to self-respond in three ways: online, by phone, or by mail.The 2020 Census self-response rates are self-response rates for current census geographies. These rates are the daily and cumulative self-response rates for all housing units that received invitations to self-respond to the 2020 Census. The 2020 Census self-response rates are available for states, counties, census tracts, congressional districts, towns and townships, consolidated cities, incorporated places, tribal areas, and tribal census tracts.The Self-Response Rate of Los Angeles County is 65.1% for 2020 Census, which is slightly lower than 69.6% of California State rate.More information about these data is available in the Self-Response Rates Map Data and Technical Documentation document associated with the 2020 Self-Response Rates Map or review FAQs.Animated Self-Response Rate 2010 vs 2020 is available at ESRI site SRR Animated Maps and can explore Census 2020 SRR data at ESRI Demographic site Census 2020 SSR Data.Following Demographic Characteristics are included in this data and web maps to visualize their relationships with Census Self-Response Rate (SRR).1. Population Density: 2020 Population per square mile,2. Poverty Rate: Percentage of population under 100% FPL,3. Median Household income: Based on countywide median HH income of $71,538.4. Highschool Education Attainment: Percentage of 18 years and older population without high school graduation.5. English Speaking Ability: Percentage of 18 years and older population with less or none English speaking ability. 6. Household without Internet Access: Percentage of HH without internet access.7. Non-Hispanic White Population: Percentage of Non-Hispanic White population.8. Non-Hispanic African-American Population: Percentage of Non-Hispanic African-American population.9. Non-Hispanic Asian Population: Percentage of Non-Hispanic Asian population.10. Hispanic Population: Percentage of Hispanic population.</abstract>
+            <purpose>2020 Census Self-Response Rate (ERR) with various demographic characteristics by 2020 census tract.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Census</themekey>
+                <themekey>Census Tract</themekey>
+                <themekey>Self-Response Rate</themekey>
+                <themekey>SRR</themekey>
+                <themekey>population</themekey>
+                <themekey>poverty rate</themekey>
+                <themekey>internet access</themekey>
+                <themekey>education attainment</themekey>
+                <themekey>English speaking ability</themekey>
+                <themekey>Hispanic</themekey>
+                <themekey>Asian</themekey>
+                <themekey>White</themekey>
+                <themekey>African-American.</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This data is for visualization purposes only and may not have been prepared for or be suitable for geoprocessing analysis, and/or for legal, engineering, or surveying intents. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information.The County of Los Angeles provides this data with no claim as to the completeness, usefulness, or accuracy of its content, positional or otherwise. The user hereby acknowledges that the data is subject to change and that its accuracy cannot be guaranteed. The County and its officials and employees make no warranty, express or implied, and assume no legal liability or responsibility for the ability of users to fulfill their intended purposes in accessing or using this data. The data could include technical inaccuracies and typographical errors. The data is presented &amp;quot;as is,&amp;quot; without warranty of any kind, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.</useconst>
+        <datacred>Census Bureau, American Community Survey, LA County eGIS Demographic Team. </datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
