@@ -30,7 +30,7 @@ race_stats = pd.Series({
 fig = make_subplots(
     rows=2, 
     cols=1,
-    vertical_spacing=0.1,  # Reduced spacing
+    vertical_spacing=0.1,
     subplot_titles=('By Income (%)', 'By Race/Ethnicity (%)'),
     row_heights=[0.3, 0.4]
 )
@@ -68,7 +68,7 @@ fig.add_trace(
 # Update layout
 fig.update_layout(
     showlegend=False,
-    height=500,
+    height=470,  # Reduced by 30
     width=800,
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
@@ -98,7 +98,7 @@ for i in [1, 2]:
 fig.update_annotations(font_size=24, x=0, xanchor='left')
 
 # Save as HTML
-fig.write_html("walkability_by_demographics2.html")
+fig.write_html("walkability_by_demographics.html")
 
 # Also display the plot
 fig.show()
