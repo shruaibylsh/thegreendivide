@@ -5,7 +5,6 @@ import numpy as np
 
 walkable = pd.read_csv("walkable_pct.csv")
 
-
 # Calculate stats for income groups
 walkable_clean = walkable.dropna(subset=['pct_walk'])
 median_income = walkable_clean['Med_HH_Inc'].median()
@@ -31,7 +30,7 @@ race_stats = pd.Series({
 fig = make_subplots(
     rows=2, 
     cols=1,
-    vertical_spacing=0.3,
+    vertical_spacing=0.1,  # Reduced spacing
     subplot_titles=('By Income (%)', 'By Race/Ethnicity (%)'),
     row_heights=[0.3, 0.4]
 )
@@ -69,7 +68,7 @@ fig.add_trace(
 # Update layout
 fig.update_layout(
     showlegend=False,
-    height=700,
+    height=500,
     width=800,
     plot_bgcolor='rgba(0,0,0,0)',
     paper_bgcolor='rgba(0,0,0,0)',
