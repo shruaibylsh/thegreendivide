@@ -98,7 +98,7 @@ for i in [1, 2]:
 fig.update_annotations(font_size=24, x=0, xanchor='left')
 
 # Save as HTML
-fig.write_html("walkability_by_demographics.html")
+fig.write_html("walkability_by_demographics2.html")
 
 # Also display the plot
 fig.show()
